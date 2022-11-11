@@ -1,0 +1,4 @@
+web: bin/rails server -p 3000
+db: postgres -D db/pgdata
+js: yarn build --watch
+css: yarn build:css --watch
